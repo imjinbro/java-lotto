@@ -21,6 +21,9 @@ public class LottoDAO {
         return lottoDAO;
     }
 
+    /* 
+        dummy data :) 
+    */
     public Connection getConnection() {
         String url = "jdbc:mysql://13.125.184.6:3306/lotto";
         String id = "colin";
